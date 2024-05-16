@@ -1,0 +1,99 @@
+[gd_scene load_steps=13 format=3 uid="uid://cvwls8tx3csjl"]
+
+[ext_resource type="Script" path="res://Scripts/Player/Movement.gd" id="1_0rnq3"]
+[ext_resource type="Texture2D" uid="uid://5bw30pgiyft4" path="res://assets/Sprites/RyuSheet.png" id="2_w48t4"]
+[ext_resource type="Script" path="res://Scripts/StateMachine/StateMachine.cs" id="3_lt66t"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_gneqj"]
+size = Vector2(1.07, 2.09)
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_budum"]
+size = Vector2(1.07, 1.1925)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_ydu66"]
+atlas = ExtResource("2_w48t4")
+region = Rect2(482, 15, 47, 84)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_jlkye"]
+atlas = ExtResource("2_w48t4")
+region = Rect2(529, 15, 47, 84)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_srlpw"]
+atlas = ExtResource("2_w48t4")
+region = Rect2(0, 15, 49, 84)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_77fvm"]
+atlas = ExtResource("2_w48t4")
+region = Rect2(49, 15, 49, 84)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_oeq14"]
+atlas = ExtResource("2_w48t4")
+region = Rect2(98, 15, 49, 84)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_r2iwp"]
+atlas = ExtResource("2_w48t4")
+region = Rect2(147, 15, 49, 84)
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_nh4pt"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_ydu66")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_jlkye")
+}],
+"loop": false,
+"name": &"Crouching",
+"speed": 8.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_srlpw")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_77fvm")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_oeq14")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_r2iwp")
+}],
+"loop": true,
+"name": &"Idle",
+"speed": 8.0
+}, {
+"frames": [],
+"loop": true,
+"name": &"Punch",
+"speed": 5.0
+}, {
+"frames": [],
+"loop": true,
+"name": &"WalkForward",
+"speed": 8.0
+}]
+
+[node name="Player" type="CharacterBody2D"]
+scale = Vector2(100, 100)
+script = ExtResource("1_0rnq3")
+
+[node name="Standing Collision" type="CollisionShape2D" parent="."]
+position = Vector2(-0.00499994, 0.005)
+shape = SubResource("RectangleShape2D_gneqj")
+
+[node name="Crouching Collision" type="CollisionShape2D" parent="."]
+position = Vector2(0, 0.45625)
+shape = SubResource("RectangleShape2D_budum")
+disabled = true
+debug_color = Color(0, 0.572549, 0.835294, 0.419608)
+
+[node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="."]
+scale = Vector2(0.025, 0.025)
+sprite_frames = SubResource("SpriteFrames_nh4pt")
+animation = &"WalkForward"
+autoplay = "Idle"
+
+[node name="StateMachine" type="Node2D" parent="."]
+script = ExtResource("3_lt66t")

@@ -1,0 +1,23 @@
+[gd_scene load_steps=3 format=3 uid="uid://6qfx5x1b48if"]
+
+[ext_resource type="PackedScene" uid="uid://cvwls8tx3csjl" path="res://Scenes/Player.tscn" id="1_wakx5"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_iaahb"]
+
+[node name="FightingRing" type="Node2D"]
+
+[node name="Camera2D" type="Camera2D" parent="."]
+
+[node name="Player" parent="." instance=ExtResource("1_wakx5")]
+
+[node name="StaticBody2D" type="StaticBody2D" parent="."]
+position = Vector2(0, 311)
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="StaticBody2D"]
+scale = Vector2(100, 20)
+shape = SubResource("RectangleShape2D_iaahb")
+
+[node name="CollisionShape2D2" type="CollisionShape2D" parent="StaticBody2D"]
+position = Vector2(1124, -547)
+scale = Vector2(100, 20)
+shape = SubResource("RectangleShape2D_iaahb")
