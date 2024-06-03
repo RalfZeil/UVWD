@@ -1,13 +1,12 @@
-using Godot;
+﻿using Godot;
 using System;
 
-public partial class CrouchState : GroundedState
+public partial class GroundedState : State
 {
-    public CrouchState(StateMachine _owner) : base(_owner) { }
+    public GroundedState(StateMachine _owner) : base(_owner) { }
 
     public override void Enter()
     {
-        owner.blackboard._animationPlayer.Play("Crouching");
     }
 
     public override void Update(double delta)

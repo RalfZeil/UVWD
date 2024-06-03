@@ -1,21 +1,20 @@
 using Godot;
-using System;
 
-public partial class IdleState : State
+public partial class IdleState : GroundedState
 {
+	public IdleState(StateMachine _owner) : base(_owner) { }
+
 	public override void Enter()
 	{
-        GD.Print("Entering Idle State");
-    }
+		owner.blackboard._animationPlayer.Play("Idle");
+	}
 
 	public override void Update(double delta)
 	{
-		GD.Print("Updating Idle State");
+		base.Update(delta);
 	}
 
 	public override void Exit()
 	{
-        GD.Print("Exiting Idle State");
-    }
+	}
 }
-

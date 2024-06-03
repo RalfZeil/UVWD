@@ -1,8 +1,10 @@
-[gd_scene load_steps=13 format=3 uid="uid://cvwls8tx3csjl"]
+[gd_scene load_steps=28 format=3 uid="uid://cvwls8tx3csjl"]
 
-[ext_resource type="Script" path="res://Scripts/Player/Movement.gd" id="1_0rnq3"]
+[ext_resource type="Texture2D" uid="uid://e4crc8qey8o8" path="res://assets/Sprites/RyuWalkingSheet.png" id="2_o8cct"]
 [ext_resource type="Texture2D" uid="uid://5bw30pgiyft4" path="res://assets/Sprites/RyuSheet.png" id="2_w48t4"]
+[ext_resource type="Script" path="res://Scripts/StateMachine/Blackboard.cs" id="3_d4fu7"]
 [ext_resource type="Script" path="res://Scripts/StateMachine/StateMachine.cs" id="3_lt66t"]
+[ext_resource type="AudioStream" uid="uid://c222d2yay2dvx" path="res://assets/Sounds/AttackSoundRandomizer.tres" id="3_m1hdx"]
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_gneqj"]
 size = Vector2(1.07, 2.09)
@@ -34,6 +36,58 @@ region = Rect2(98, 15, 49, 84)
 atlas = ExtResource("2_w48t4")
 region = Rect2(147, 15, 49, 84)
 
+[sub_resource type="AtlasTexture" id="AtlasTexture_o50yj"]
+atlas = ExtResource("2_w48t4")
+region = Rect2(128, 470, 64, 94)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_mpltt"]
+atlas = ExtResource("2_w48t4")
+region = Rect2(64, 470, 64, 94)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_ls4ks"]
+atlas = ExtResource("2_w48t4")
+region = Rect2(0, 470, 64, 94)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_wxa2f"]
+atlas = ExtResource("2_w48t4")
+region = Rect2(182, 127, 60, 87)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_gxugq"]
+atlas = ExtResource("2_w48t4")
+region = Rect2(242, 127, 60, 87)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_jaeuu"]
+atlas = ExtResource("2_w48t4")
+region = Rect2(302, 127, 60, 87)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_labf2"]
+atlas = ExtResource("2_w48t4")
+region = Rect2(362, 127, 60, 87)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_0ubs3"]
+atlas = ExtResource("2_w48t4")
+region = Rect2(422, 127, 60, 87)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_thu8n"]
+atlas = ExtResource("2_o8cct")
+region = Rect2(0, 0, 49, 82)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_r0y3v"]
+atlas = ExtResource("2_o8cct")
+region = Rect2(49, 0, 49, 82)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_wpxna"]
+atlas = ExtResource("2_o8cct")
+region = Rect2(101, 0, 49, 82)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_48psg"]
+atlas = ExtResource("2_o8cct")
+region = Rect2(150, 0, 49, 82)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_ox7xu"]
+atlas = ExtResource("2_o8cct")
+region = Rect2(200, 0, 49, 82)
+
 [sub_resource type="SpriteFrames" id="SpriteFrames_nh4pt"]
 animations = [{
 "frames": [{
@@ -64,12 +118,56 @@ animations = [{
 "name": &"Idle",
 "speed": 8.0
 }, {
-"frames": [],
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_o50yj")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_mpltt")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_ls4ks")
+}],
+"loop": true,
+"name": &"Kick",
+"speed": 8.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_wxa2f")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_gxugq")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_jaeuu")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_labf2")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_0ubs3")
+}],
 "loop": true,
 "name": &"Punch",
-"speed": 5.0
+"speed": 8.0
 }, {
-"frames": [],
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_thu8n")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_r0y3v")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_wpxna")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_48psg")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_ox7xu")
+}],
 "loop": true,
 "name": &"WalkForward",
 "speed": 8.0
@@ -77,7 +175,6 @@ animations = [{
 
 [node name="Player" type="CharacterBody2D"]
 scale = Vector2(100, 100)
-script = ExtResource("1_0rnq3")
 
 [node name="Standing Collision" type="CollisionShape2D" parent="."]
 position = Vector2(-0.00499994, 0.005)
@@ -92,8 +189,18 @@ debug_color = Color(0, 0.572549, 0.835294, 0.419608)
 [node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="."]
 scale = Vector2(0.025, 0.025)
 sprite_frames = SubResource("SpriteFrames_nh4pt")
-animation = &"WalkForward"
+animation = &"Kick"
 autoplay = "Idle"
+
+[node name="AudioStreamPlayer2D" type="AudioStreamPlayer2D" parent="."]
+stream = ExtResource("3_m1hdx")
 
 [node name="StateMachine" type="Node2D" parent="."]
 script = ExtResource("3_lt66t")
+BlackboardPath = NodePath("Blackboard")
+
+[node name="Blackboard" type="Node2D" parent="StateMachine"]
+script = ExtResource("3_d4fu7")
+CharacterBody2DPath = NodePath("../..")
+AnimationPlayerPath = NodePath("../../AnimatedSprite2D")
+SoundPlayerPath = NodePath("../../AudioStreamPlayer2D")
