@@ -21,6 +21,9 @@ public partial class StateMachine
             // Frow Crouch to Attacks
             new Transition(StateType.Crouch, StateType.LightPunch, () => Input.IsActionJustPressed("LightPunch")),
             new Transition(StateType.Crouch, StateType.LightKick, () => Input.IsActionJustPressed("LightKick")),
+
+            new Transition(StateType.Idle, StateType.Shoryuken, () => commandBuffer.CheckSequence(InputCommand.Up)),
+            new Transition(StateType.Crouch, StateType.Shoryuken, () => commandBuffer.CheckSequence(InputCommand.Down, InputCommand.Right)),
             
             //// From Grounded to Idle
             //new Transition(StateType.Grounded, StateType.Idle, () => true),

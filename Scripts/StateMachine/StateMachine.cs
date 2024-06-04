@@ -48,7 +48,7 @@ public partial class StateMachine : Node2D
 			{ StateType.LightPunch, new LightPunchState(this) },
 			{ StateType.LightKick, new LightKickState(this) },
 			//{ StateType.Hadouken, new HadoukenState(this) },
-			//{ StateType.Shoryuken, new ShoryukenState(this) },
+			{ StateType.Shoryuken, new ShoryukenState(this) },
 		};
 	}
 

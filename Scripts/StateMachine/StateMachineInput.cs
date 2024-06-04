@@ -17,6 +17,8 @@ public enum InputCommand
 
 public partial class StateMachine
 {
+
+    // Translate the input into commands
     private void UpdateInput()
     {
         if (Input.IsActionPressed("Up"))

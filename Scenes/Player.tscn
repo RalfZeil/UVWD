@@ -1,4 +1,4 @@
-[gd_scene load_steps=28 format=3 uid="uid://cvwls8tx3csjl"]
+[gd_scene load_steps=34 format=3 uid="uid://cvwls8tx3csjl"]
 
 [ext_resource type="Texture2D" uid="uid://e4crc8qey8o8" path="res://assets/Sprites/RyuWalkingSheet.png" id="2_o8cct"]
 [ext_resource type="Texture2D" uid="uid://5bw30pgiyft4" path="res://assets/Sprites/RyuSheet.png" id="2_w48t4"]
@@ -67,6 +67,30 @@ region = Rect2(362, 127, 60, 87)
 [sub_resource type="AtlasTexture" id="AtlasTexture_0ubs3"]
 atlas = ExtResource("2_w48t4")
 region = Rect2(422, 127, 60, 87)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_8nts4"]
+atlas = ExtResource("2_w48t4")
+region = Rect2(1, 835, 50, 144)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_nvxtk"]
+atlas = ExtResource("2_w48t4")
+region = Rect2(51, 835, 50, 144)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_grsji"]
+atlas = ExtResource("2_w48t4")
+region = Rect2(101, 835, 50, 144)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_6pnli"]
+atlas = ExtResource("2_w48t4")
+region = Rect2(151, 835, 50, 144)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_ygym8"]
+atlas = ExtResource("2_w48t4")
+region = Rect2(201, 835, 50, 144)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_g8232"]
+atlas = ExtResource("2_w48t4")
+region = Rect2(251, 835, 50, 144)
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_thu8n"]
 atlas = ExtResource("2_o8cct")
@@ -154,6 +178,29 @@ animations = [{
 }, {
 "frames": [{
 "duration": 1.0,
+"texture": SubResource("AtlasTexture_8nts4")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_nvxtk")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_grsji")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_6pnli")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_ygym8")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_g8232")
+}],
+"loop": true,
+"name": &"Shoryuken",
+"speed": 8.0
+}, {
+"frames": [{
+"duration": 1.0,
 "texture": SubResource("AtlasTexture_thu8n")
 }, {
 "duration": 1.0,
@@ -189,8 +236,9 @@ debug_color = Color(0, 0.572549, 0.835294, 0.419608)
 [node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="."]
 scale = Vector2(0.025, 0.025)
 sprite_frames = SubResource("SpriteFrames_nh4pt")
-animation = &"Kick"
+animation = &"Shoryuken"
 autoplay = "Idle"
+frame_progress = 0.982187
 
 [node name="AudioStreamPlayer2D" type="AudioStreamPlayer2D" parent="."]
 stream = ExtResource("3_m1hdx")

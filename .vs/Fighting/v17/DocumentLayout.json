@@ -3,40 +3,40 @@
   "WorkspaceRootPath": "D:\\Projects\\Godot\\Fighting\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{B927D4D1-B53B-4165-9F02-C10F6B9929DA}|Fighting.csproj|D:\\Projects\\Godot\\Fighting\\scripts\\statemachine\\states\\lightkickstate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B927D4D1-B53B-4165-9F02-C10F6B9929DA}|Fighting.csproj|solutionrelative:scripts\\statemachine\\states\\lightkickstate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{B927D4D1-B53B-4165-9F02-C10F6B9929DA}|Fighting.csproj|D:\\Projects\\Godot\\Fighting\\scripts\\statemachine\\statemachinetransitions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B927D4D1-B53B-4165-9F02-C10F6B9929DA}|Fighting.csproj|solutionrelative:scripts\\statemachine\\statemachinetransitions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B927D4D1-B53B-4165-9F02-C10F6B9929DA}|Fighting.csproj|D:\\Projects\\Godot\\Fighting\\scripts\\statemachine\\states\\lightpunchstate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B927D4D1-B53B-4165-9F02-C10F6B9929DA}|Fighting.csproj|solutionrelative:scripts\\statemachine\\states\\lightpunchstate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B927D4D1-B53B-4165-9F02-C10F6B9929DA}|Fighting.csproj|D:\\Projects\\Godot\\Fighting\\scripts\\statemachine\\states\\attackstate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B927D4D1-B53B-4165-9F02-C10F6B9929DA}|Fighting.csproj|solutionrelative:scripts\\statemachine\\states\\attackstate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B927D4D1-B53B-4165-9F02-C10F6B9929DA}|Fighting.csproj|D:\\Projects\\Godot\\Fighting\\scripts\\statemachine\\states\\walkstate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B927D4D1-B53B-4165-9F02-C10F6B9929DA}|Fighting.csproj|solutionrelative:scripts\\statemachine\\states\\walkstate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B927D4D1-B53B-4165-9F02-C10F6B9929DA}|Fighting.csproj|D:\\Projects\\Godot\\Fighting\\scripts\\statemachine\\states\\idlestate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B927D4D1-B53B-4165-9F02-C10F6B9929DA}|Fighting.csproj|solutionrelative:scripts\\statemachine\\states\\idlestate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B927D4D1-B53B-4165-9F02-C10F6B9929DA}|Fighting.csproj|D:\\Projects\\Godot\\Fighting\\scripts\\statemachine\\states\\crouchstate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B927D4D1-B53B-4165-9F02-C10F6B9929DA}|Fighting.csproj|solutionrelative:scripts\\statemachine\\states\\crouchstate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{B927D4D1-B53B-4165-9F02-C10F6B9929DA}|Fighting.csproj|D:\\Projects\\Godot\\Fighting\\scripts\\statemachine\\statemachine.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B927D4D1-B53B-4165-9F02-C10F6B9929DA}|Fighting.csproj|solutionrelative:scripts\\statemachine\\statemachine.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{B927D4D1-B53B-4165-9F02-C10F6B9929DA}|Fighting.csproj|D:\\Projects\\Godot\\Fighting\\scripts\\statemachine\\blackboard.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{B927D4D1-B53B-4165-9F02-C10F6B9929DA}|Fighting.csproj|solutionrelative:scripts\\statemachine\\blackboard.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B927D4D1-B53B-4165-9F02-C10F6B9929DA}|Fighting.csproj|d:\\projects\\godot\\fighting\\scripts\\statemachine\\statemachine.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B927D4D1-B53B-4165-9F02-C10F6B9929DA}|Fighting.csproj|solutionrelative:scripts\\statemachine\\statemachine.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{B927D4D1-B53B-4165-9F02-C10F6B9929DA}|Fighting.csproj|D:\\Projects\\Godot\\Fighting\\scripts\\statemachine\\states\\idlestate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B927D4D1-B53B-4165-9F02-C10F6B9929DA}|Fighting.csproj|solutionrelative:scripts\\statemachine\\states\\idlestate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B927D4D1-B53B-4165-9F02-C10F6B9929DA}|Fighting.csproj|D:\\Projects\\Godot\\Fighting\\scripts\\statemachine\\statemachinetransitions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B927D4D1-B53B-4165-9F02-C10F6B9929DA}|Fighting.csproj|solutionrelative:scripts\\statemachine\\statemachinetransitions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{B927D4D1-B53B-4165-9F02-C10F6B9929DA}|Fighting.csproj|D:\\Projects\\Godot\\Fighting\\scripts\\statemachine\\states\\attackstate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B927D4D1-B53B-4165-9F02-C10F6B9929DA}|Fighting.csproj|solutionrelative:scripts\\statemachine\\states\\attackstate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B927D4D1-B53B-4165-9F02-C10F6B9929DA}|Fighting.csproj|D:\\Projects\\Godot\\Fighting\\scripts\\statemachine\\states\\lightpunchstate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B927D4D1-B53B-4165-9F02-C10F6B9929DA}|Fighting.csproj|solutionrelative:scripts\\statemachine\\states\\lightpunchstate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B927D4D1-B53B-4165-9F02-C10F6B9929DA}|Fighting.csproj|d:\\projects\\godot\\fighting\\scripts\\statemachine\\states\\lightkickstate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B927D4D1-B53B-4165-9F02-C10F6B9929DA}|Fighting.csproj|solutionrelative:scripts\\statemachine\\states\\lightkickstate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B927D4D1-B53B-4165-9F02-C10F6B9929DA}|Fighting.csproj|D:\\Projects\\Godot\\Fighting\\scripts\\statemachine\\states\\walkstate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B927D4D1-B53B-4165-9F02-C10F6B9929DA}|Fighting.csproj|solutionrelative:scripts\\statemachine\\states\\walkstate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B927D4D1-B53B-4165-9F02-C10F6B9929DA}|Fighting.csproj|D:\\Projects\\Godot\\Fighting\\scripts\\statemachine\\states\\crouchstate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B927D4D1-B53B-4165-9F02-C10F6B9929DA}|Fighting.csproj|solutionrelative:scripts\\statemachine\\states\\crouchstate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{B927D4D1-B53B-4165-9F02-C10F6B9929DA}|Fighting.csproj|D:\\Projects\\Godot\\Fighting\\scripts\\statemachine\\statemachineinput.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -66,7 +66,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 9,
           "Children": [
             {
               "$type": "Bookmark",
@@ -74,46 +74,46 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 6,
               "Title": "LightKickState.cs",
               "DocumentMoniker": "D:\\Projects\\Godot\\Fighting\\Scripts\\StateMachine\\States\\LightKickState.cs",
               "RelativeDocumentMoniker": "Scripts\\StateMachine\\States\\LightKickState.cs",
               "ToolTip": "D:\\Projects\\Godot\\Fighting\\Scripts\\StateMachine\\States\\LightKickState.cs",
               "RelativeToolTip": "Scripts\\StateMachine\\States\\LightKickState.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAqwAkAAAAAAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-05-27T15:03:45.373Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 5,
               "Title": "LightPunchState.cs",
               "DocumentMoniker": "D:\\Projects\\Godot\\Fighting\\Scripts\\StateMachine\\States\\LightPunchState.cs",
               "RelativeDocumentMoniker": "Scripts\\StateMachine\\States\\LightPunchState.cs",
               "ToolTip": "D:\\Projects\\Godot\\Fighting\\Scripts\\StateMachine\\States\\LightPunchState.cs",
               "RelativeToolTip": "Scripts\\StateMachine\\States\\LightPunchState.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAqwA0AAAAAAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABgAAAAFAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-05-27T15:03:38.158Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 4,
               "Title": "AttackState.cs",
               "DocumentMoniker": "D:\\Projects\\Godot\\Fighting\\Scripts\\StateMachine\\States\\AttackState.cs",
               "RelativeDocumentMoniker": "Scripts\\StateMachine\\States\\AttackState.cs",
               "ToolTip": "D:\\Projects\\Godot\\Fighting\\Scripts\\StateMachine\\States\\AttackState.cs",
               "RelativeToolTip": "Scripts\\StateMachine\\States\\AttackState.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAqwAkAAAAFAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAA6wAkAAAAFAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-05-27T15:04:03.145Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 3,
               "Title": "IdleState.cs",
               "DocumentMoniker": "D:\\Projects\\Godot\\Fighting\\Scripts\\StateMachine\\States\\IdleState.cs",
               "RelativeDocumentMoniker": "Scripts\\StateMachine\\States\\IdleState.cs",
@@ -126,7 +126,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 7,
               "Title": "WalkState.cs",
               "DocumentMoniker": "D:\\Projects\\Godot\\Fighting\\Scripts\\StateMachine\\States\\WalkState.cs",
               "RelativeDocumentMoniker": "Scripts\\StateMachine\\States\\WalkState.cs",
@@ -134,12 +134,11 @@
               "RelativeToolTip": "Scripts\\StateMachine\\States\\WalkState.cs",
               "ViewState": "AQIAAAUAAAAAAAAAAAAQwBUAAAAJAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-18T16:59:57.896Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-05-18T16:59:57.896Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 1,
               "Title": "StateMachine.cs",
               "DocumentMoniker": "D:\\Projects\\Godot\\Fighting\\Scripts\\StateMachine\\StateMachine.cs",
               "RelativeDocumentMoniker": "Scripts\\StateMachine\\StateMachine.cs",
@@ -152,7 +151,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 8,
               "Title": "CrouchState.cs",
               "DocumentMoniker": "D:\\Projects\\Godot\\Fighting\\Scripts\\StateMachine\\States\\CrouchState.cs",
               "RelativeDocumentMoniker": "Scripts\\StateMachine\\States\\CrouchState.cs",
@@ -160,12 +159,11 @@
               "RelativeToolTip": "Scripts\\StateMachine\\States\\CrouchState.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAABEAAAAfAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-14T18:25:54.007Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-05-14T18:25:54.007Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 2,
               "Title": "Blackboard.cs",
               "DocumentMoniker": "D:\\Projects\\Godot\\Fighting\\Scripts\\StateMachine\\Blackboard.cs",
               "RelativeDocumentMoniker": "Scripts\\StateMachine\\Blackboard.cs",
@@ -178,13 +176,13 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 0,
               "Title": "StateMachineTransitions.cs",
               "DocumentMoniker": "D:\\Projects\\Godot\\Fighting\\Scripts\\StateMachine\\StateMachineTransitions.cs",
               "RelativeDocumentMoniker": "Scripts\\StateMachine\\StateMachineTransitions.cs",
               "ToolTip": "D:\\Projects\\Godot\\Fighting\\Scripts\\StateMachine\\StateMachineTransitions.cs",
               "RelativeToolTip": "Scripts\\StateMachine\\StateMachineTransitions.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABkAAAAAAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABsAAAAFAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-05-18T18:40:10.221Z",
               "EditorCaption": ""
@@ -199,8 +197,7 @@
               "RelativeToolTip": "Scripts\\StateMachine\\StateMachineInput.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAB8AAAAQAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-18T19:18:34.938Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-05-18T19:18:34.938Z"
             },
             {
               "$type": "Document",
