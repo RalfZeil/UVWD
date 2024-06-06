@@ -38,13 +38,14 @@ size_flags_horizontal = 3
 [node name="RichTextLabel" type="RichTextLabel" parent="UI/BoxContainer/HBoxContainer/VBoxContainer"]
 layout_mode = 2
 size_flags_vertical = 3
-text = "Controls:
-Left A
-Right D
-Down S
-Punch U
-Kick J
-Shoryuken W "
+text = "Controls Keyboard
+Left: A
+Right: D
+Down: S
+Punch: U
+Kick: J
+Shoryuken: W
+"
 
 [node name="VBoxContainer2" type="VBoxContainer" parent="UI/BoxContainer/HBoxContainer"]
 layout_mode = 2
